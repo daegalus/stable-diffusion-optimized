@@ -1,3 +1,3 @@
 #!/bin/sh
-activate ldm
+conda activate ldm
 python "optimized-scripts/optimized_txt2img.py" $@
